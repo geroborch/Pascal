@@ -1,0 +1,5 @@
+program SehrEinfach (Output);
+begin
+    writeln ('Hallo! Viel Spaß beim Programmieren!')
+
+    
