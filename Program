@@ -1,0 +1,21 @@
+Program
+
+Kreisumfang (input, output);
+{berechnet den Kreisumfang bei gegebenen Radius}
+
+const
+PI=3.14159
+{jetzt kommt eine Variablen deklaration}
+
+var
+Radius
+Umfang: real;
+
+begin
+writeln ('Berechnung des Kreisumfangs.')
+write ('gebenSie den Radius ein:')
+readIn (Radius);
+Umfang:= 2.0 PI Radius;
+writeln (Der Umfangt betraegt: ', Umfang)
+
+end {Kreisumfang}
