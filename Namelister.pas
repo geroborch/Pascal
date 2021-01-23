@@ -17,8 +17,8 @@ begin
     WriteLn('Your names are:');
     for i := 0 to TOTAL_NAMES do
         case (names[i]) of
-            'John Egbert': WriteLn('Zoosmell Pooplord');
-            'Dave Strider': WriteLn('Insufferable Prick');
+            'clementine': WriteLn('Zoosmell Pooplord');
+            'Gero': WriteLn('Insufferable Prick');
             'Rose Lalonde': WriteLn('Flighty Broad');
         else
             WriteLn(names[i]);
